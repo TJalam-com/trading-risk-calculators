@@ -1,0 +1,39 @@
+{
+  "name": "trading-risk-calculators",
+  "version": "1.0.0",
+  "description": "Dependency-free position sizing, lot size, pip value, risk:reward, Kelly and expectancy maths for traders.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "trading",
+    "position-size",
+    "lot-size",
+    "pip-value",
+    "risk-management",
+    "kelly-criterion",
+    "forex",
+    "risk-reward"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJalam-com/trading-risk-calculators.git"
+  },
+  "homepage": "https://github.com/TJalam-com/trading-risk-calculators#readme"
+}
